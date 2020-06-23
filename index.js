@@ -18,11 +18,11 @@ function currentLine(katzDeliLine){
   }
   else{
     var y = [];
-    var x = "";
+    var x = "The line is currently: ";
 
     for (let i = 0, i < katzDeliLine.length, i++){
       y[i] = `${i+1}. katzDeliLine[i]`;
-       x = "The line is currently: " + y;
+       x = x + y;
     }
 
     return x
