@@ -18,14 +18,5 @@ function currentLine(katzDeliLine){
   }
   else{
     return `The line is currently: 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`
-    //var y = [];
-    //var x = "The line is currently:";
-
-    //for (let i = 0, i < katzDeliLine.length, i++){
-    //  y[i] = ` ${i+1}. katzDeliLine[i],`;
-    //   x = x + y[i];
-    //}
-
-    //return x
   }
 }
