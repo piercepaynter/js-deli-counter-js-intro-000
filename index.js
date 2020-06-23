@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
 
     for (let i = 0, i < katzDeliLine.length, i++){
       y[i] = ` ${i+1}. katzDeliLine[i],`;
-       x = x + y;
+       x = x + y[i];
     }
 
     return x
